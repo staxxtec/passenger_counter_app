@@ -1,14 +1,17 @@
 //document.getElementById("count-el").innerText = 5
 
-// let firstBatch = 5
-// let secondBatch = 7
+// let count = 5
+// count = count + 1
+// console.log(count)
 
-// let count = firstBatch + secondBatch
+// intialize the count as 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked 
+// change the count-el in the HTMML to reflect the new count
 
+function increment() {
 
-// console.log(count);
-
-
+}
 
 
 
