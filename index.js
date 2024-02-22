@@ -9,13 +9,24 @@
 // increment the count variable when the button is clicked 
 // change the count-el in the HTMML to reflect the new count
 
-function increment() {
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
+let count = 0
 
+function increment() {
+    count += 1
+    countEl.innerText = count
+}
+
+function save() {
+    let countStr = count + " - "
+    saveEl.innerText += countStr
+
+    console.log(count)
 }
 
 
-
-
+ 
 
 
 
